@@ -185,6 +185,7 @@ test-coverage:
   stage: test
   only:
     - master
+    - pr-9066
   script:
     - scripts/gitlab-test.sh test-coverage
   tags:
